@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat"; }
+
+html {
+  overflow-x: hidden; }
+
+.box {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box image {
+  width: 100%;
+}
+
+.box h1 {
+  padding-top: 50px;
+  font-weight: bold;
+}
+
+.not{
+  height: 100vh;
+  background-size: contain;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.not h1{
+    color: white;
+    font-weight: bolder;
+}
+
+/*# sourceMappingURL=style.css.map */

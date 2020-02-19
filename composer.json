@@ -1,0 +1,21 @@
+{
+	"name": "evandersonluks/mvc_structure",
+    "description": "Estrutura MVC organizada",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Evanderson Lucas",
+            "email": "lukas_batera27@outlook.com",
+            "role": "development"
+        }
+    ],
+	"autoload":{
+		"psr-4":{
+			"Source\\":"source/"
+		}
+	},
+	"require":{
+        "ext-json": "*"
+	}
+}
